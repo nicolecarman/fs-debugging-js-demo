@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkslategrey;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    height: 80px;
+    background-color: steelblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+h2, h3 {
+    background-color: steelblue;
+    padding: 5px;
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    width: 900px;
+    margin: 24px auto;
+}
+
+form {
+    margin: 12px auto;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px lightgrey;
+    padding-bottom: 12px;
+    border-radius: 8px;
+}
+
+input {
+    margin-top: 12px;
+}
+
+#entry-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.entry {
+    width: 175px;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px lightgrey;
+    padding-bottom: 12px;
+    border-radius: 8px;
+}
+
+.entry > h3, h2 {
+    width: 100%;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    padding: 8px 0;
+}
+
+.entry > p {
+    margin: 20px 0 12px 0;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: lightslategrey;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-top: 12px;
+}
